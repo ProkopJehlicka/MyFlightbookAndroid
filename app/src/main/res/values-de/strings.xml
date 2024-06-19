@@ -7,9 +7,9 @@
 
     <string name="tabNewFlight">Neu</string>
     <string name="tabAircraft">Luftfahrzeug</string>
-    <string name="tabRecent">Kürzlich</string>
-    <string name="tabCurrency">Währung</string>
-    <string name="tabTotals">Gesamt</string>
+    <string name="tabRecent">Historie</string>
+    <string name="tabCurrency">Aktualität</string>
+    <string name="tabTotals">Summen</string>
     <string name="tabVisited">Besucht</string>
     <string name="tabTraining">Training</string>
     <string name="tabProfile">Profil</string>
@@ -28,35 +28,35 @@
     <string name="szSignOut">Abmelden</string>
     <string name="lblForgotPassword">Passwort vergessen? Du kannst es auf MyFlighbook.com zurücksetzen</string>
     <string name="createuser">Account erstellen…</string>
-    <string name="lblOptAutoDetect">Automatisch Start und Landung erkennen</string>
+    <string name="lblOptAutoDetect">Start und Landung automatisch erkennen</string>
     <string name="lblOptRecord">Flugweg aufzeichnen</string>
     <string name="lblOptRecordHiRes">Aufzeichnen in hoher Auflösung</string>
     <string name="lblOptRecordHiResDesc">Langsamer im upload/download, aber funktioniert besser mit Apps wie CloudAhoy</string>
-    <string name="lblOptIncludeHeliports">Inklusive Heliports</string>
-    <string name="lblOptRoundNearestTenth">Verwende nächstes zehntel einer Stunde</string>
-    <string name="lblOptUseHHMM">Gib Zeiten im Format HH:MM ein</string>
-    <string name="lblOptUseLocalTime">Verwende Lokalzeit</string>
-    <string name="lblOptTOSpeed">Takeoff speed (kts)</string>
-    <string name="lblOptNightDefinition">Starts Nacht Flug</string>
+    <string name="lblOptIncludeHeliports">Heliports einbeziehen</string>
+    <string name="lblOptRoundNearestTenth">Auf Zehntel-Stunden runden</string>
+    <string name="lblOptUseHHMM">Zeitformat HH:MM verwenden</string>
+    <string name="lblOptUseLocalTime">Lokalzeit verwenden</string>
+    <string name="lblOptTOSpeed">Startgeschwindigkeit (kts)</string>
+    <string name="lblOptNightDefinition">Definition Nachtflug:</string>
     <string name="lblOptNightDefinitionSunset">Sonnenuntergang</string>
-    <string name="lblOptNightDefinitionSunsetPlus15">15 Minuten nach Sonnenuntergang</string>
-    <string name="lblOptNightDefinitionSunsetPlus30">30 Minuten nach Sonnenuntergang</string>
-    <string name="lblOptNightDefinitionSunsetPlus60">1 Stunde nach Sonnenuntergang</string>
+    <string name="lblOptNightDefinitionSunsetPlus15">15 min nach Sonnenuntergang</string>
+    <string name="lblOptNightDefinitionSunsetPlus30">30 min nach Sonnenuntergang</string>
+    <string name="lblOptNightDefinitionSunsetPlus60">1h nach Sonnenuntergang</string>
     <string name="lblOptNightDefinitionCivilTwilight">Ende der bürgerlichen Dämmerung</string>
-    <string name="lblOptNightLandingsDefinition">Nachtlandungen vorgekommen</string>
+    <string name="lblOptNightLandingsDefinition">Definition Nachtlandung</string>
     <string name="lblOptNightLandingsNight">Während Nachtflug</string>
-    <string name="lblOptNightLandingsSunsetPlus1hour">1 Stunde nach Sonnenuntergang</string>
+    <string name="lblOptNightLandingsSunsetPlus1hour">1h nach Sonnenuntergang</string>
     <string name="lblOptUnitsHeader">Einheiten</string>
     <string name="lblOptAltUnitsHeader">Höhe</string>
     <string name="lblOptSpeedUnitsHeader">Geschwindigkeit</string>
-    <string name="lblOptUnitsFeet">Fuß</string>
-    <string name="lblOptUnitsMeters">Meter</string>
-    <string name="lblOptUnitsKnots">Knoten</string>
-    <string name="lblOptUnitsMPH">Meilen/Stunde</string>
-    <string name="lblOptUnitsKPH">KM/Stunde</string>
+    <string name="lblOptUnitsFeet">ft</string>
+    <string name="lblOptUnitsMeters">m</string>
+    <string name="lblOptUnitsKnots">kts</string>
+    <string name="lblOptUnitsMPH">m/h</string>
+    <string name="lblOptUnitsKPH">km/h</string>
     <string name="lblImageOptions">Flugdisplay Einstellungen</string>
     <string name="lblShowFlightImages">Zeige Bilder für Flug</string>
-    <string name="lblShowFlightTimes">Flug Details</string>
+    <string name="lblShowFlightTimes">Flugdetails</string>
     <string name="lblFlightDetailLow">Niedrig</string>
     <string name="lblFlightDetailMed">Mittel</string>
     <string name="lblFlightDetailHigh">Hoch</string>
@@ -67,7 +67,7 @@
     <string name="lblCockpitOptions">Im Cockpit</string>
     <string name="lblCockpitTach">Zeige Tachometer Start/Stop</string>
     <string name="lblCockpitHobbs">Zeige Hobbs Start/Stop</string>
-    <string name="lblCockpitBlock">Zeige Block Out/In</string>
+    <string name="lblCockpitBlock">Zeige Block Off/On</string>
     <string name="lblCockpitFlight">Zeige Flug Start/Stop</string>
     <string name="lblCockpitEngine">Zeige Motor Start/Stop</string>
     
@@ -78,10 +78,10 @@
     <string name="lblComments">Kommentar</string>
     <string name="lblLandings">Total</string>
     <string name="lblLandingsAlt">Landungen</string>
-    <string name="lblFSDayLandings">Tag\n(Voll-Stop)</string>
-    <string name="lblFSNightLandings">Nacht\n(Voll-Stop)</string>
-    <string name="lblApproaches">Approach</string>
-    <string name="lblHold">Halt</string>
+    <string name="lblFSDayLandings">Tag\n(Abschlusslandung)</string>
+    <string name="lblFSNightLandings">Nacht\n(Abschlusslandung)</string>
+    <string name="lblApproaches">IFR-Anflüge</string>
+    <string name="lblHold">Warteschleifen</string>
     <string name="lblNight">Nacht</string>
     <string name="lblSimIMC">Sim. IMC</string>
     <string name="lblIMC">IMC</string>
@@ -91,23 +91,23 @@
     <string name="lblCFI">Instructor</string>
     <string name="lblSIC">SIC</string>
     <string name="lblPIC">PIC</string>
-    <string name="lblTotal">Zeit Gesamt</string>
-    <string name="lblHobbsStart">Hobbs Starten</string>
+    <string name="lblTotal">Gesamtflugzeit</string>
+    <string name="lblHobbsStart">Hobbs Anfang</string>
     <string name="lblEngineStart">Motor Start</string>
-    <string name="lblFlightStart">Flug Start</string>
+    <string name="lblFlightStart">Flug Anfang</string>
     <string name="lblHobbsEnd">Hobbs Ende</string>
     <string name="lblEngineEnd">Motor Stop</string>
     <string name="lblFlightEnd">Flug Ende</string>
-    <string name="lblTachStart">Start Tacho</string>
-    <string name="lblTachEnd">Ende Tacho</string>
+    <string name="lblTachStart">Tacho Anfang</string>
+    <string name="lblTachEnd">Tacho Ende</string>
     <string name="lblBlockOut">Block Out</string>
     <string name="lblBlockIn">Block In</string>
     <string name="lblProperties">Bearbeite Flug Daten…</string>
-    <string name="lblCatApproachesAndLandings">Landungen und Approaches</string>
+    <string name="lblCatApproachesAndLandings">Landungen und Anflüge</string>
     <string name="lblCatTimes">Flugzeiten</string>
-    <string name="lblCatOverall">Allgemeine Flug Informationen</string>
+    <string name="lblCatOverall">Allgemeine Fluginformationen</string>
     <string name="lblCatCockpit">Im Cockpit</string>
-    <string name="lblCatProperties">Flug Einstellungen</string>
+    <string name="lblCatProperties">Flugeinstellungen</string>
     <string name="lblCatSharing">Teilen</string>
     <string name="lblMyFlightbook">Flug auf MyFlightbook teilen</string>
     <string name="lblSignature">Unterschrift</string>
@@ -241,13 +241,13 @@
     <string name="lblLongitude">(Längengrad)</string>
 
     <!-- Telemetry comments -->
-    <string name="telemetryFSLanding">Voll-Stop Landung erkannt</string>
-    <string name="telemetryFSNight">Voll-stop Nacht-Landung erkannt</string>
+    <string name="telemetryFSLanding">Abschlusslandung erkannt</string>
+    <string name="telemetryFSNight">Nacht-Abschlusslandung erkannt</string>
     <string name="telemetryTakeOff">Start erkannt</string>
 
     <!-- Progress indicators -->
     <string name="prgTotals">Summen abrufen…</string>
-    <string name="prgCurrency">Währung abrfen…</string>
+    <string name="prgCurrency">Aktualität abrufen…</string>
     <string name="prgAircraft">Flugzeug abrufen…</string>
     <string name="prgSigningIn">Einloggen…</string>
     <string name="prgCreatingAccount">Account erstellen…</string>
@@ -286,12 +286,12 @@
     <string name="lblConfirmFlightDelete">Diesen Flug löschen? Dies kann nicht rückgängig gemacht werden.</string>
     <string name="lblConfirmModifySignedFlight">Du bist dabei, einen Flug zu ändern, der bereits signiert wurde; dadurch kann die Signatur ungültig werden. Bist du sicher?</string>
 
-    <string name="txtFlightQueued">Der Flug wurde zum späteren Hochladen gespeichert. Du kannst ihn unter letzte Flüge finden.</string>
-    <string name="txtRepeatFlightComplete">Der Flug wurde erstellt. Du kannst ihn unter "letzte Flüge" bearbeiten.</string>
+    <string name="txtFlightQueued">Der Flug wurde zum späteren Hochladen gespeichert. Du kannst ihn in der Historie finden.</string>
+    <string name="txtRepeatFlightComplete">Der Flug wurde erstellt. Du kannst ihn in der Historie bearbeiten.</string>
     <string name="txtSuccess">Erfolg</string>
     <string name="txtSavedFlight">Dein Flug wurde auf MyFlightbook.com gespeichert</string>
     <string name="txtAwaitingUpload"> (ERWARTE UPLOAD)</string>
-    <string name="txtPendingAddition"> (SCHWEBEND)</string>
+    <string name="txtPendingAddition"> (BEVORSTEHEND)</string>
 
     <string name="txtError">Fehler</string>
     <string name="errMainDBFailure">Die Hauptdatenbank kann nicht erstellt/kopiert werden - die App wird nicht funktionieren!</string>
@@ -306,7 +306,7 @@
     <string name="errCannotRetrieveMakes">Liste von Flugzeug Marken und Modellen kann nicht abgerufen werden</string>
     <string name="errCannotAddAircraft">Flugzeug kann nicht hinzugefügt werden</string>
     <string name="errMustBeSignedInToCreateAircraft">Du musst eingeloggt sein, um ein Flugzeug zu erstellen</string>
-    <string name="errMustBeSignedInToViewRecentFlights">Du musst eingeloggt sein, um letzte Flüge anzuzeigen</string>
+    <string name="errMustBeSignedInToViewRecentFlights">Du musst eingeloggt sein, um eine Historie anzuzeigen</string>
     <string name="errNoAircraftFoundShort">Kein Flugzeug gefunden.</string>
     <string name="errMustCreateAircraft">In deinem Account wurde kein Flugzeug gefunden. Du musst erst eins anlegen, bevor du Flüge erstellen kannst.</string>
     <string name="txtCleanupComplete">Aufräumen abgeschlossen; keine Fehler gefunden.</string>
@@ -328,15 +328,15 @@
     <string name="txtShareGPX">Sende GPX zu…</string>
     <string name="txtFileNameExisting">Flug </string>
     <string name="txtFileNameNew">Neuer Flug</string>
-    <string name="txtFileNamePending">Schwebender Flug</string>
+    <string name="txtFileNamePending">Bevorstehender Flug</string>
 
-    <string name="lblPreviouslyUsed">Verwendet</string>
+    <string name="lblPreviouslyUsed">Bisher verwendet</string>
 
     <!-- Aircraft Instance Types -->
     <string name="aircraftInstanceTypeReal">Echtes Flugzeug</string>
     <string name="aircraftInstanceTypeSimUncertified">Sim: Nicht-Zertifiziert</string>
-    <string name="aircraftInstanceTypeSimLogAppchs">Sim: Sichere Anflüge</string>
-    <string name="aircraftInstanceTypeSimLogAppchsLandings">Sim: Sichere Anflüge, Landungen</string>
+    <string name="aircraftInstanceTypeSimLogAppchs">Sim: Anflüge aufzeichnen</string>
+    <string name="aircraftInstanceTypeSimLogAppchsLandings">Sim: Anflüge und Landungen aufzeichnen</string>
     <string name="aircraftInstanceTypeATD">Aviation Training Device (ATD)</string>
 
     <!-- Recent flights ranges -->
